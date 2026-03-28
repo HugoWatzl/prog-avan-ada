@@ -42,7 +42,7 @@ public class Sistema {
                     buscar();
                     break;
                 case 4:
-                    rel();
+                    relelatorio();
                     break;
                 case 5:
                     cancelar();
@@ -226,7 +226,7 @@ public class Sistema {
         }
     }
 
-    public void rel() {
+    public void relelatorio() {
         Relatorio r = new Relatorio();
         r.gerar(pedidos);
     }
