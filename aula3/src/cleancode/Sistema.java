@@ -114,7 +114,7 @@ public class Sistema {
             continua = sc.nextLine();
         }
 
-        // usa o método da classe Pedido
+        // metodo da classe 
         double total = novoPedido.calcularSubtotal();
 
         // regra de desconto
@@ -154,7 +154,7 @@ public class Sistema {
             System.out.println("Pedido importante!!!");
         }
 
-        // opcional: usa o método de impressão do Pedido
+        
         novoPedido.imprimirResumo();
     }
 
